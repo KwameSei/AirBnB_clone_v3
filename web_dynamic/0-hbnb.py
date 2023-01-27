@@ -17,6 +17,9 @@ def close_db(error):
     """ Remove the current SQLAlchemy Session """
     storage.close()
 
+@app.route('/0-hbnb/', strict_slashes=False)
+def home():
+    return "Welcome Home"
 
 @app.route('/0-hbnb/', strict_slashes=False)
 def hbnb():
