@@ -160,6 +160,7 @@ Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 <br>
 Nathaniel Osei - [Github](https://github.com/KwameSei) / [Twitter](https://twitter.com/Oseinat)
+Stephanie Masika - [GitHub](https://github.com/MasikaII) / [Twitter](https://twitter.com/masikasteph)
 
 Second part of Airbnb: Joann Vuong
 ## License
