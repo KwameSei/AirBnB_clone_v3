@@ -3,9 +3,32 @@ header {
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
+    position: relative;
 }
 header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
+}
+
+header #api_status {
+    background-color: #cccccc;
+    /* Alignining item to the right */
+    display: flex;
+    align-items: right;
+    right: 0;
+    margin-right: 30px;
+    /* Giving element a circular shape */ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* Vertically align item */
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.available {
+    background-color: #ff545f;
 }
