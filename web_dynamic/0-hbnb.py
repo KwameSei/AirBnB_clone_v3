@@ -18,13 +18,6 @@ def close_db(error):
     """ Remove the current SQLAlchemy Session """
     storage.close()
 
-<<<<<<< HEAD
-@app.route('/')
-def home():
-    return "Welcome to Homepage"
-
-=======
->>>>>>> 70f4b903418c06591d3fbf33b2afe1685d1928c7
 @app.route('/0-hbnb/', strict_slashes=False)
 def hbnb():
     """ HBNB is alive! """
@@ -50,4 +43,4 @@ def hbnb():
 
 if __name__ == "__main__":
     """ Main Function """
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=True)
